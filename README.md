@@ -1,6 +1,12 @@
 git基本操作
 来源：https://blog.csdn.net/u013497977/article/details/54291724
 
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:q-meet/world.git
+git push -u origin master
+
 一 .git的安装配置（只有初次使用需要配置）
 1 用户名和邮件
 $ git config --global user.name "runoob"
