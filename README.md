@@ -7,7 +7,7 @@ $ git config --global user.name "runoob"
 $ git config --global user.email test@runoob.com
 
 3 添加公钥
-在右上角找到Settings->SSH keys-> Add SSH key ->拷贝在公钥（id_rsa.pub）文件中的所有的文本->完成了对GitHub上SSH Key公钥的添加。
+在右上角找到Settings->SSH keys-> Add SSH key ->拷贝在公钥（id_rsa.pub）文件中的所有的文本->完fsdf:
 这样就可以使用git去连接github上的repository了。
 
 流程
