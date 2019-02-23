@@ -25,6 +25,7 @@ mkdir  hahaha                 本地随意创建一个文件夹
 cd hahaha                      进到该目录
 git init                     初始化为本地的仓库
 touch readme
+git add image/
 git add readme       每次更新都要add
 #git status             查看哪些文件改变了但还未commit
 #git diff                  查看文件改变的内容
@@ -51,9 +52,9 @@ github创建hahaha，把本地的库hahaha与github上的git关联
 git remote add origin git@github.com:username/hahaha.git
 
 3
-把本地的东西都推上去
+把本地的东西都推上去 提交
  git push -u origin master/
-把上面的都下下来
+把上面的都下下来 更新
  git pull
 
 
